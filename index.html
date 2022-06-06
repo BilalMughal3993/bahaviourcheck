@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Document</title>
+    
 </head>
 <body>
-    <div>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem corporis odio aspernatur praesentium vero. Facere nihil deleniti aut aperiam dignissimos obcaecati perferendis iure. Accusantium veritatis facere ad reprehenderit molestiae sequi!
-        </p>
-    </div>
+    
+    <center><h1 id="demo"> Hello</h1>
+        <h4>Please Enter The Number !!</h4>
+
+
+    <script>
+      let numOne= Math.floor(Math.random()*10)+1;
+      let numTwo= Math.floor(Math.random()*10)+1;
+      let correctAns = numOne + "+" + numTwo;
+      let mainAns = numOne+numTwo;
+      console.log(correctAns);
+    </script>
+    <input type="input"  id="inputNo"/>
+    <button type="button" onclick=addition()>Submit</button>
+    <input type="button" onclick=newCard() value="New Card"/>
+
+    <p id="answer"></p>
+
+
+    <script src="app.js"></script>
+</center>
 </body>
 </html>
