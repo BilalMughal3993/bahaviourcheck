@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="jquery.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is my Div</h1>
+    <div class="myDiv">
+    <p><b>Note:</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, commodi?</p>
+</div>
+
+    <button id="b1">Press me For Toggle</button>
+    <input type="input" id="inpu">
+    <span id="wel">Welcome</span>
+    <span id="tak">Take Care</span>
+   <h1>Hello</h1>
+    <script>
+        $(document).ready(function(){
+            $("#b1").click(function(){
+               $(".myDiv").toggle(1000)
+            })
+            $("span").hide()
+            $("#inpu").focus(function(){
+                $("#wel").show().fadeOut(3000)
+            })
+            $("#inpu").blur(function(){
+                $("#tak").show().fadeOut(3000)
+            })
+        })
+
+    </script>
+</body>
+</html>

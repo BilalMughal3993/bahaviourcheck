@@ -7,10 +7,10 @@ function addition() {
   } else {
     if (correctVal == mainAns) {
         document.getElementById("answer").innerHTML =
-          "Correct !! " + numOne + "+" + numTwo + "=" + mainAns;
+          "Correct !! " + correctAns + "=" + mainAns;
       } else {
         document.getElementById("answer").innerHTML =
-          "Incorrect !! " + numOne + "+" + numTwo + "=" + mainAns;
+          "Incorrect !! " + correctAns + "=" + mainAns;
           
       }
     
