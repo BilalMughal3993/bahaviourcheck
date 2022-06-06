@@ -1,0 +1,42 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-color: black;
+    
+  
+}
+.container{
+    width: 50%;
+    align-items: center;
+    background-color: rgba(139, 237, 98, 0.596);
+    margin: 7%;
+    padding: 5%;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(0, 0, 0)
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: bisque;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:azure;
+}
+#b1{
+background-color: aqua;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+color: brown;
+}
+#inputNo{
+   
+ 
+    background-color: beige;
+    
+}

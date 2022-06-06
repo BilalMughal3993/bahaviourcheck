@@ -11,6 +11,7 @@ function addition() {
       } else {
         document.getElementById("answer").innerHTML =
           "Incorrect !! " + numOne + "+" + numTwo + "=" + mainAns;
+          
       }
     
   }
